@@ -11,15 +11,15 @@ function App() {
         <h1 className="text-2xl font-bold text-Blue950 mb-2">Order Summary</h1>
         <p className="text-Gray600">You can now listen to millions of songs, audiobooks and podcasts on any device anywhere you like</p>
       </div>
-      <div className="flex justify-between mx-10 bg-Blue100/70 py-4 px-4 rounded-2xl">
-      <div className="flex gap-2">
+      <div className="flex justify-between mx-4 bg-Blue100/70 py-4 px-4 rounded-2xl">
+      <div className="flex gap-2 text-sm md:text-lg">
         <img src="./images/icon-music.svg" alt="music" />
         <div className="flex flex-col gap-1"><p className="font-bold text-Blue950">Annual plan</p>
         <p className="text-Gray600 ">$59.99/year</p></div>
         </div>
-        <p className="underline self-center text-Blue700 cursor-pointer">Change</p>
+        <p className="underline self-center text-Blue700 cursor-pointer text-sm md:text-lg">Change</p>
       </div>
-      <div className="flex flex-col mx-10 gap-2">
+      <div className="flex flex-col mx-4 gap-2 text-sm md:text-lg">
         <button className="bg-Blue700 hover:bg-blue-400 transition-colors duration-300 font-bold text-white p-4 rounded-lg shadow-xl shadow-black/50 cursor-pointer">proceed to Payment</button>
         <button className="p-4 mb-4 font-bold text-Blue950 cursor-pointer">Cancel Order</button>
       </div>
